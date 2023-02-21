@@ -5,7 +5,7 @@ class Usuaria{
     private $clave;
 
 
-	public function Usuaria($rut,$nombre,$clave){
+	public function __construct($rut,$nombre,$clave){
 		$this->rut = $rut;
         $this->nombre = $nombre;
         $this->clave = $clave;
@@ -14,7 +14,7 @@ class Usuaria{
 	public function getRut(){
 		return $this->rut;
 	}
-    public function getNombre(){
+    public function get_Nombre(){
 		return $this->nombre;
 	}
     public function getClave(){

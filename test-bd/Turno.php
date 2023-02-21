@@ -8,7 +8,7 @@ class Turno{
 	private $rut;
 
 
-	public function Turno($id,$dia,$hora_i,$hora_f,$tiempo,$rut){
+	public function __construct($id,$dia,$hora_i,$hora_f,$tiempo,$rut){
 		$this->id  = $id;
 		$this->dia = $dia;
 		$this->hora_i = $hora_i;
